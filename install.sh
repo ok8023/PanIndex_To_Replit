@@ -2,7 +2,7 @@ echo "PanIndex_To_Replit 一键搭建脚本"
 echo "脚本作者：ok8023"
 echo "开源地址：https://github.com/ok8023/PanIndex_To_Replit/"
 nix-env -iA nixpkgs.wget
-wget -O .replit https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/.replit
+wget -O .replit https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/files/.replit
 wget -O replit.nix https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/files/replit.nix
 wget -O main.sh https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/files/main.sh
 wget -O installrun.sh https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/files/run.sh
