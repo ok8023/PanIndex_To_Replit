@@ -4,7 +4,7 @@
 Replit创建Bash语言，shell中输入
 
 ```
-git clone https://github.com/ok8023/PanIndex_To_Replit.git && mv -b PanIndex-Replit/* ./ && mv -b PanIndex-Replit/.[^.]* ./ && rm -rf *~ && rm -rf PanIndex-Replit
+bash <(curl -s https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/install.sh)
 ```
 
 回车等待输出完毕
