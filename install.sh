@@ -8,13 +8,14 @@ wget -O .replit https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main
 wget -O replit.nix https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/files/replit.nix
 cd ..
 wget -O main.sh https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/files/main.sh
-wget -O install.sh https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/files/run.sh
+wget -O installrun.sh https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/files/run.sh
 wget -O README.md https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/README.md
 mv -b PanIndex-Replit/* ./ 
 mv -b PanIndex-Replit/.[^.]* ./ 
 rm -rf *~ && rm -rf PanIndex-Replit
 cp -r build/.replit . && cp -r build/replit.nix .
 rm -rf build/
+sh installrun.sh
 echo "恭喜项目搭建完成"
 echo "点击Run立即运行项目"
 echo "默认密码为:PanIndex"
