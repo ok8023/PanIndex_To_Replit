@@ -4,7 +4,7 @@
 
 # 安装说明
 
-Replit创建Bash环境，Shell中输入
+Replit创建Bash环境，Shell中输入以下一键安装脚本
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/install.sh)
