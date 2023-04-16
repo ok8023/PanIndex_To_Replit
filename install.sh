@@ -12,7 +12,6 @@ wget -O install.sh https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/m
 wget -O README.md https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/README.md
 cp -r build/.replit . && cp -r build/replit.nix .
 rm -rf build/
-sh install.sh
 echo "恭喜项目搭建完成"
 echo "点击Run立即运行项目"
 echo "默认密码为:PanIndex"
