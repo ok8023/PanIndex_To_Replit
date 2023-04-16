@@ -16,3 +16,10 @@ bash <(curl -s https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/
 
 默认密码为:`PanIndex`
 
+# 更新安装
+
+Shell中输入以下一键更新脚本
+
+```
+bash <(curl -s https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/update.sh)
+```
