@@ -9,14 +9,6 @@ bash <(curl -s https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/
 
 回车等待输出完毕
 
-输入
-
-```
-sh install.sh
-```
-
-回车等待输出完毕
-
 点击绿色Run按钮运行
 
 ```
