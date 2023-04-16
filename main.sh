@@ -1,1 +1,0 @@
-./PanIndex-linux-amd64
