@@ -4,7 +4,7 @@ echo "开源地址：https://github.com/ok8023/PanIndex_To_Replit/"
 nix-env -iA nixpkgs.wget
 mkdir build
 cd build
-wget -O .replit https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/files/.replit
+wget -O .replit https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/.replit
 wget -O replit.nix https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/files/replit.nix
 cd ..
 
