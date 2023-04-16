@@ -1,7 +1,7 @@
 # PanIndex-Replit
-在Replit构建PanIndex网盘工具
+在Replit一键部署PanIndex网盘工具。
 
-Replit创建Bash语言，shell中输入
+Replit创建Bash环境，Shell中输入
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/install.sh)
@@ -9,7 +9,9 @@ bash <(curl -s https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/
 
 回车等待输出完毕
 
-点击绿色Run按钮运行
+点击绿色`Run`按钮运行
+
+默认密码为:`PanIndex`
 
 ```
  ____   __    _  _  ____  _  _  ____  ____  _  _ 
@@ -17,7 +19,3 @@ bash <(curl -s https://raw.githubusercontent.com/ok8023/PanIndex_To_Replit/main/
  )___//(__)\  )  (  _)(_  )  (  )(_) ))__)  )  ( 
 (__) (__)(__)(_)\_)(____)(_)\_)(____/(____)(_/\_)
 ```
-
-默认密码为`PanIndex`
-
-
