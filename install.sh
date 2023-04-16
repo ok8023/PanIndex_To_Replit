@@ -14,7 +14,6 @@ mv -b PanIndex-Replit/* ./
 mv -b PanIndex-Replit/.[^.]* ./ 
 rm -rf *~ && rm -rf PanIndex-Replit
 cp -r build/.replit . && cp -r build/replit.nix .
-rm -rf build/
 sh installrun.sh
 echo "恭喜项目搭建完成"
 echo "点击Run立即运行项目"
